@@ -1,0 +1,103 @@
+body {
+  background-image: url(/wed/wed1/img/xanhnhat.jpg);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+h2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  font-style: initial;
+}
+.reg {
+  padding: 10.5px 20px;
+  border-radius: 3px;
+  background-color: #e9f1f1;
+  color: #0e0d0d;
+  border: none;
+  outline: none;
+}
+#username {
+  padding: 10.5px 20px;
+  border-radius: 3px;
+  background-color: #e9f1f1;
+  color: #0e0d0d;
+  border: none;
+  outline: none;
+}
+.trang1 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 50px;
+  height: 70;
+  align-items: center;
+}
+.logo {
+  flex: 1;
+}
+.menu {
+  flex: 3;
+  display: flex;
+}
+.menu > li {
+  padding: 0 40px;
+}
+.others {
+  flex: 1;
+}
+.others > li:first-child input {
+  width: 100%;
+  border: #54c2e4;
+  border-bottom: 1px solid #57a4d8;
+}
+.aspect-ratio-169 {
+  display: block;
+  position: relative;
+  padding-top: 56.25%;
+  transition: 0.3s;
+}
+
+.aspect-ratio-169 img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.icon {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.far fa-circle {
+  height: 18px;
+  width: 18px;
+  background-color: #020202;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+#slider {
+  padding: 30px;
+  border-bottom: 2px solid #000;
+  overflow: hidden;
+}
