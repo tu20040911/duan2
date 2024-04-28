@@ -14,7 +14,10 @@ function hanldelogin(Data) {
     if (Data.username == username && Data.pw == pw) {
       alert("đăng nhập thành công");
       window.location.href = "./trang1.html";
+    }else {
+      alert("Sai Thông tin vui Lòng kiểm Tra lại ");
     }
+  }
   });
 }
 
@@ -33,6 +36,8 @@ function createUser(data) {
   });
   if (data) {
     alert("dang ki thanh cong");
+  } else {
+    alert("Sai Thông tin vui Lòng kiểm Tra lại ");
   }
 }
 function handlecrateform() {
